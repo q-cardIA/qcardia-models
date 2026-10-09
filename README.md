@@ -1,3 +1,20 @@
+> [!IMPORTANT]
+> **This repository has moved.** `qcardia-models` is now developed in the
+> [q-cardIA/qcardia](https://github.com/q-cardIA/qcardia), under
+> `packages/qcardia-models/`.
+>
+> This repository is archived and read-only. Please open issues and pull
+> requests in the main repo.
+>
+> Existing installs are unaffected — the `v1.0.0` tag here still works. For
+> the current version, install from the main repo:
+>
+> ```
+> pip install "git+https://github.com/q-cardIA/qcardia#subdirectory=packages/qcardia-models"
+> ```
+
+---
+
 ## Quantitative cardiac image analysis data module: `qcardia-models`
 
 A PyTorch based library to build and handle medical imaging model pipelines. Can be used to quickly get highly customizable U-Net or EncoderMLP models for deep learning purposes. Currently supported models:
